@@ -35,5 +35,41 @@
     "unbind": {
       "cmd-r": "workspace::ToggleRightDock"
     }
+  },
+  {
+    "context": "ImageViewer",
+    "unbind": {
+      "cmd-&": "image_viewer::ZoomToActualSize"
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "cmd-&": [
+        "welcome::OpenRecentProject",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-&": [
+        "workspace::ActivatePane",
+        0
+      ]
+    }
+  },
+  {
+    "context": "!AcpThread > Editor && mode == full",
+    "bindings": {
+      "cmd-&": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "!AcpThread > Editor && mode == full",
+    "unbind": {
+      "cmd-shift-e": "pane::RevealInProjectPanel"
+    }
   }
 ]
