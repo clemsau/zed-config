@@ -21,8 +21,8 @@ git push -u origin main
 Then, symlink creation:
 
 ```
-ln -sf zed-config/settings.json ~/.config/zed/settings.json
-ln -sf zed-config/keymap.json ~/.config/zed/keymap.json
+ln -sf ./zed-config/settings.json ~/.config/zed/settings.json
+ln -sf ./zed-config/keymap.json ~/.config/zed/keymap.json
 ```
 
 ## Copying the settings locally
@@ -36,12 +36,11 @@ Clone the repo:
 git remote add origin git@github.com:clemsau/zed-config.git
 ```
 
-Go in the repo, and create the symlinks:
+Create the symlinks:
 
 ```
-cd zed-config
-ln -sf settings.json ~/.config/zed/settings.json
-ln -sf keymap.json ~/.config/zed/keymap.json
+ln -sf ./zed-config/settings.json ~/.config/zed/settings.json
+ln -sf ./zed-config/keymap.json ~/.config/zed/keymap.json
 ```
 
 ## Maintenance
