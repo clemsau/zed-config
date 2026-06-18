@@ -29,5 +29,17 @@
     "unbind": {
       "cmd-n": "project_symbols::Toggle"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-r cmd-d": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-r": "workspace::ToggleRightDock"
+    }
   }
 ]
