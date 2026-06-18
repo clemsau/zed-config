@@ -32,12 +32,6 @@
   },
   {
     "context": "Workspace",
-    "bindings": {
-      "cmd-r cmd-d": "workspace::ToggleRightDock"
-    }
-  },
-  {
-    "context": "Workspace",
     "unbind": {
       "cmd-r": "workspace::ToggleRightDock"
     }
