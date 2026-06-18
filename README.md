@@ -1,5 +1,8 @@
 # Personal zed config
 
+> [!NOTE]  
+> Double check the commands and especially the path, as they need absolute
+
 ## Initial setup
 
 Repo was created to track zed settings & keybindings.
@@ -21,8 +24,8 @@ git push -u origin main
 Then, symlink creation:
 
 ```
-ln -sf ./zed-config/settings.json ~/.config/zed/settings.json
-ln -sf ./zed-config/keymap.json ~/.config/zed/keymap.json
+ln -sf ~/Github/zed-config/settings.json ~/.config/zed/settings.json
+ln -sf ~/Github/zed-config/keymap.json ~/.config/zed/keymap.json
 ```
 
 ## Copying the settings locally
@@ -39,8 +42,8 @@ git remote add origin git@github.com:clemsau/zed-config.git
 Create the symlinks:
 
 ```
-ln -sf ./zed-config/settings.json ~/.config/zed/settings.json
-ln -sf ./zed-config/keymap.json ~/.config/zed/keymap.json
+ln -sf ~/Github/zed-config/settings.json ~/.config/zed/settings.json
+ln -sf ~/Github/zed-config/keymap.json ~/.config/zed/keymap.json
 ```
 
 ## Maintenance
