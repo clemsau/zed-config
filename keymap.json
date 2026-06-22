@@ -20,12 +20,6 @@
   },
   {
     "context": "Workspace",
-    "bindings": {
-      "cmd-@": "project_symbols::Toggle"
-    }
-  },
-  {
-    "context": "Workspace",
     "unbind": {
       "cmd-n": "project_symbols::Toggle"
     }
@@ -70,6 +64,36 @@
     "context": "!AcpThread > Editor && mode == full",
     "unbind": {
       "cmd-shift-e": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-shift-t": "pane::ReopenClosedItem"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-t": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-o": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-t": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-cmd-o": "project_symbols::Toggle"
     }
   }
 ]
