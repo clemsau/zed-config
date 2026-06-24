@@ -95,5 +95,10 @@
     "unbind": {
       "alt-cmd-o": "project_symbols::Toggle"
     }
+  },
+  {
+    "bindings": {
+      "cmd-shift-l": "editor::CopyFileLocation"
+    }
   }
 ]
