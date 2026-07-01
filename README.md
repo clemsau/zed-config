@@ -36,10 +36,10 @@ ln -sf ~/Github/zed-config/keymap.json ~/.config/zed/keymap.json
 Clone the repo:
 
 ```
-git remote add origin git@github.com:clemsau/zed-config.git
+git remote git@github.com:clemsau/zed-config.git
 ```
 
-Create the symlinks:
+Create the symlinks (be aware if you don't have the same path structure):
 
 ```
 ln -sf ~/Github/zed-config/settings.json ~/.config/zed/settings.json
