@@ -51,3 +51,11 @@ ln -sf ~/Github/zed-config/keymap.json ~/.config/zed/keymap.json
 Just push from this repo whenever settings or keybindings are modified locally.
 
 Pull from this repo regularly, especially when you know settings or keybindings has been modified.
+
+## Shortcuts to know & modified
+
+```
+Project symbol: toggle [cmd shift t]
+File finder: toggle [cmd shift n]
+Close current file [cmd w]
+```
